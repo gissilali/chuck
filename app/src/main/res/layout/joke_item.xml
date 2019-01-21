@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:background="@drawable/rounded_corners"
+                                       android:layout_height="match_parent"
+                                       app:cardElevation="30dp"
+                                       app:cardCornerRadius="12dp" android:layout_marginTop="0dp"
+                                       android:layout_alignParentTop="true" android:layout_alignParentBottom="true"
+                                       android:layout_marginBottom="0dp" android:layout_alignParentEnd="true"
+                                       android:layout_marginEnd="0dp" android:layout_alignParentStart="true"
+                                       android:layout_marginStart="0dp">
+        <TextView
+                android:fontFamily="@font/proxima_nova_reg"
+                android:background="@drawable/rounded_corners"
+                android:text="Chuck Norris doesn't use GUI, he prefers COMMAND line"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/joke_text"
+                android:textStyle="bold" android:lineSpacingExtra="8sp"
+                android:textSize="30sp"
+                android:layout_marginBottom="8dp" android:elevation="30dp"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
